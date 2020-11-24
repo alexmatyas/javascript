@@ -1,0 +1,12 @@
+<meta charset="utf-8">
+<script>
+	var Tc;
+	var Tf;
+	Tc = parseInt(prompt("Задайте температуру в градусах по Цельсию: "));
+	Tf = (9 / 5) * Tc + 32;
+	if (isNaN(Tc)) {
+		alert("Это явно не градусы...");
+	} else {
+		alert("Температура в градусах Фаренгейта: " + Tf);
+	}
+</script>
